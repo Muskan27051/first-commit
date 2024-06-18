@@ -1,0 +1,40 @@
+ans 2
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd".format(num))
+
+output:
+Enter a number: 5
+5 is Odd
+
+ans 7 
+print(len( input("please enter...")))
+output...
+please enter...muskan
+6
+
+ans 10
+ mystring = 'Python Examples'
+print('Original String :',mystring)
+
+uppercase = mystring.upper()
+print('Uppercase String :',uppercase)
+output:
+Original String : Python Examples
+Uppercase String : PYTHON EXAMPLES
+
+
+ans 12
+n=int(input("Enter number"))
+
+sum=0
+
+for digit in str(n):
+    sum=sum+int(digit)
+
+print("Sum of digits",sum)
+output
+Enter number35
+Sum of digits 8
